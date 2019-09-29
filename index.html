@@ -9,7 +9,8 @@
     <body>
         <h1>Processing project by Martina</h1>
         <script type="text/processing">
-
+        
+          void setup() {
           size(400, 400);
               background(100, 100, 50);
             }
@@ -20,7 +21,6 @@
                 rotate(radians(frameCount * 2  % 360));
                 quad(50, 31, 45, 20, 69, 63, 30, 76);
                 popMatrix();
-           
            
                 pushMatrix();
                 fill(100, 0, 10);
